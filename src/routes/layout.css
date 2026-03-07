@@ -1,0 +1,25 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+@import url('https://fonts.googleapis.com/css2?family=Vast+Shadow&family=Urbanist:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+@theme {
+  --font-lufga: 'Plus Jakarta Sans', sans-serif;
+  --font-vast: 'Vast Shadow', serif;
+  --font-urbanist: 'Urbanist', sans-serif;
+  --color-orange: #fd853a;
+  --color-dark: #171717;
+  --color-text-primary: #344054;
+  --color-text-muted: #98a2b3;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-lufga);
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
