@@ -22,7 +22,7 @@
 
 <section
 	id="home"
-	class="relative flex min-h-[846px] w-full items-end justify-center overflow-hidden pb-16"
+	class="relative flex min-h-[846px] w-full items-end justify-center overflow-hidden pb-0"
 >
 	<!-- Orange ellipse background -->
 	<div
@@ -57,7 +57,7 @@
 		</h1>
 	</div>
 	<!-- Woman photo (in front of text) -->
-	<div class="relative z-10 mx-auto h-[636px] w-[952px] flex-shrink-0">
+	<div class="relative z-10 mx-auto h-[636px] w-[952px] flex-shrink-0 ">
 		<img
 			src={womanPhoto}
 			alt="Yao SiYi, Product Designer"
